@@ -1,0 +1,19 @@
+{
+	"File Info" :{
+		"Author" : "",
+		"Last Modified" : "",
+		"Description" : "List of Filenames Emails",
+		"Project" : "Code4"
+	},
+	"PR-Filenames" : {
+		"1" : "area1.csv",
+		"2" : "area2.csv"
+	},
+	"Emails" : {
+		"1" : "user1@email.com",
+		"2" : "user2@email.com",
+		"3" : "user3@email.com",
+		"4" : "user4@email.com",
+		"5" : "user5@email.com"
+	}
+}
