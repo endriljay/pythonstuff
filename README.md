@@ -16,19 +16,21 @@ The Python files are separated into two groups, the actual app and the library.
   Script used for reading the Performance Ratio (through a CSV file) and sends email to a list based on the treshold indicated.
 3) data_to_csv.py -
   Script used for translating JSON data to CSV file.
+4) csv_to_mysqldb.py -
+  Script used to convert a device's CSV output into a MySQL database entry.
   
 <b>[- Python Libraries -]</b>
 
-4) py_jsonlib.py -
+1) py_jsonlib.py -
   Library to open, read, and store the data from the specified JSON file.
   
-5) py_configlib.py -
+2) py_configlib.py -
   Library to get directories, filenames, configuration settings used for computation of the <b>Performance Ratio</b>
   
-6) py_csvlib.py -
+3) py_csvlib.py -
   Library used to read and write CSV files used for the computation of the <b>Performance Ratio</b>
   
-7) py_emaillib.py -
+4) py_emaillib.py -
   Library used send email to the list specified in the JSON file.
   
 <b>[JSON Files:]</b>
